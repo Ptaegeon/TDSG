@@ -56,6 +56,15 @@ python main.py --save_dir "experiment_output" --run_group "visual-kitchen-mixed"
 
 # visual-fetch-reach
 python main.py --save_dir "experiment_output" --run_group "FetchReach-v1" --seed 0 --env_name "visual-fetch-reach" --pretrain_steps 500002 --eval_interval 100000 --save_interval 100000 --subgoal_dim 10 --td_dim 32 temporal_dist 5 --anchor_interval 4 --hilp_pretrain_expectile 0.95 --pretrain_expectile 0.7 --low_pretrain_expectile 0.7 --high_temperature 1 --temperature 10
-
+```
 
 ## Citation
+
+```bibtex
+@inproceedings{park2025tdsg,
+  title     = {Temporal Distance-Aware Subgoal Generation for Offline Hierarchical Reinforcement Learning},
+  author    = {Taegeon Park and Seungho Baek and Jongchan Park and Seungjun Oh and Yusung Kim},
+  booktitle = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM)},
+  year      = {2025},
+  note      = {to appear}
+}
