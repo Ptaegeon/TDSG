@@ -1,5 +1,33 @@
 # TDSG: Temporal Distance-aware Subgoal Generation for Offline Hierarchical Reinforcement Learning
 
+<!-- <p align="left">
+  <a href="https://www.arxiv.org/abs/2506.07744"><img src="https://img.shields.io/badge/Paper-arXiv-blueviolet?style=for-the-badge&logo=arxiv&logoColor=white"></a>
+  <a href="https://qortmdgh4141.github.io/projects/GAS/"><img src="https://img.shields.io/badge/Project%20Page-Website-blueviolet?style=for-the-badge&logo=rocket&logoColor=white"></a>
+  <a href="https://www.youtube.com/watch?v=6mxRlbn2_6s"><img src="https://img.shields.io/badge/Talk%20(10min)-YouTube-blueviolet?style=for-the-badge&logo=youtube"></a>
+</p> -->
+
+
+:bell: We are happy to announce that TDSG was accepted at **CIKM 2025**. :bell:
+
+This is the official implementation of Temporal Distance-aware Subgoal Generation.
+
+<!-- This is the official implementation of **[Temporal Distance-aware Subgoal Generation](https://arxiv.org/abs/2506.07744)** (**TDSG**) -->
+
+
+<img src="assets/figures/tdsg_thumb.png" width="100%" alt="Overview">
+
+<p align="center">
+  <img src="assets/figures/environments.png" width="34%" valign="middle" alt="Environments">
+  <img src="assets/figures/results.png" width="65%" valign="middle" alt="Results">
+</p>
+
+
+
+
+<!-- See the [project page](https://qortmdgh4141.github.io/projects/GAS/) for more details. -->
+
+
+
 ## Installation
 
 ```
@@ -30,5 +58,4 @@ python main.py --save_dir "experiment_output" --run_group "visual-kitchen-mixed"
 python main.py --save_dir "experiment_output" --run_group "FetchReach-v1" --seed 0 --env_name "visual-fetch-reach" --pretrain_steps 500002 --eval_interval 100000 --save_interval 100000 --subgoal_dim 10 --td_dim 32 temporal_dist 5 --anchor_interval 4 --hilp_pretrain_expectile 0.95 --pretrain_expectile 0.7 --low_pretrain_expectile 0.7 --high_temperature 1 --temperature 10
 
 
-## License
-MIT
+## Citation
